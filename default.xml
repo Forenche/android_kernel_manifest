@@ -19,6 +19,7 @@
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
+  <project path="tools/libufdt" name="platform/system/libufdt" revision="master" remote="aosp" />
 
   <!-- Xiaomi Mi 11 Kernel -->
   <project path="kernel/msm-5.4" name="ralph950412/kernel_xiaomi_venus" remote="github" revision="thirteen" />
