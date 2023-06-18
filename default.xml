@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="aosp" fetch="https://android.googlesource.com/" />
-  <remote  name="statix"
-    fetch="https://github.com/StatiXOS/"
-    revision="tm" />
   <remote  name="github"
     fetch="https://github.com/" />
 
@@ -17,13 +14,9 @@
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
   <project path="tools/libufdt" name="platform/system/libufdt" revision="master" remote="aosp" />
 
-  <!-- Xiaomi Mi 11 Kernel -->
-  <project path="kernel/msm-5.4" name="ralph950412/kernel_xiaomi_venus" remote="github" revision="thirteen" />
-
-  <!-- Eva GCC -->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="statix" revision="13.0.1" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="mvaisakh/gcc-arm" remote="github" revision="d82ade018dd655af90322bb8d6927aa2374dbdcb" clone-depth="1" />
+  <!-- Rhodei Kernel -->
+  <project path="kernel/msm-5.4" name="Forenche/android_kernel_motorla_rhodei" remote="github" revision="hehe" />
 
   <!-- AnyKernel3 -->
-  <project path="ak3" name="mvaisakh/AnyKernel3" remote="github" revision="op9p" clone-depth="1" />
+  <project path="AnyKernel3" name="Forenche/AnyKernel3" remote="github" revision="rhodei" clone-depth="1" />
 </manifest>
